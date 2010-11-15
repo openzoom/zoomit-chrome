@@ -1,0 +1,17 @@
+{
+   "name": "Zoom.it",
+   "version": "1",
+   "description": "Explore and share your images in full, high-resolution detail with Zoom.it, a free service from Microsoft.",
+   "icons": {
+      "16": "zoomit-16.png",
+      "48": "zoomit-48.png",
+      "128": "zoomit-128.png"
+   },
+   "background_page": "background.html",
+   "permissions": [
+        "contextMenus",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
