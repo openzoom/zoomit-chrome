@@ -16,16 +16,16 @@
 //
 //////////////////////////////////////////////////////////////////////////////
 {
-   "name": "Zoom.it",
-   "version": "1",
-   "description": "Explore and share your images in full, high-resolution detail with Zoom.it, a free service from Microsoft.",
-   "icons": {
-      "16": "zoomit-16.png",
-      "48": "zoomit-48.png",
-      "128": "zoomit-128.png"
-   },
-   "background_page": "background.html",
-   "permissions": [
+    "name": "Zoom.it",
+    "version": "1.1",
+    "description": "View and share hi-res images in full detail with Zoom.it. This extension adds a right-click context menu item to links, images and pages.",
+    "icons": {
+        "16": "zoomit-16.png",
+        "48": "zoomit-48.png",
+        "128": "zoomit-128.png"
+    },
+    "background_page": "background.html",
+    "permissions": [
         "contextMenus",
         "tabs",
         "http://*/*",
