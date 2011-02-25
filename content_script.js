@@ -24,10 +24,7 @@ chrome.contextMenus.create({
     "title": "Open Link with Zoom.it",
     "contexts": ["link"],
     "onclick": function (data, tab) {
-        //alert("Worked!");
-        //alert("data.linkUrl=" + data.linkUrl);
         openWithZoomit(data.linkUrl);
-        //alert("Should be opening...");
     }
 });
 
