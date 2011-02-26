@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////
 //
-//  Copyright 2010 Daniel Gasienica <daniel@gasienica.ch>
-//  Copyright 2011 Aseem Kishore <aseem.kishore@gmail.com>
+//  Copyright 2010-2011 Daniel Gasienica <daniel@gasienica.ch>
+//                      Aseem Kishore <aseem.kishore@gmail.com>
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -49,7 +49,4 @@ function openWithZoomit(url) {
     chrome.tabs.create({
         url: "http://zoom.it/?url=" + encodeURIComponent(url)
     });
-    
-    // TEMP not sure what this is for? closes the extension's background page?
-    window.close();
 }
