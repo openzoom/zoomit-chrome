@@ -1,25 +1,7 @@
-//////////////////////////////////////////////////////////////////////////////
-//
-//  Copyright 2010-2011 Daniel Gasienica <daniel@gasienica.ch>
-//                      Aseem Kishore <aseem.kishore@gmail.com>
-//
-//  Licensed under the Apache License, Version 2.0 (the "License");
-//  you may not use this file except in compliance with the License.
-//  You may obtain a copy of the License at
-//
-//    http://www.apache.org/licenses/LICENSE-2.0
-//
-//  Unless required by applicable law or agreed to in writing, software
-//  distributed under the License is distributed on an "AS IS" BASIS,
-//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-//  See the License for the specific language governing permissions and
-//  limitations under the License.
-//
-//////////////////////////////////////////////////////////////////////////////
 {
     "name": "Zoom.it",
     "version": "1.1",
-    "description": "View and share high-resolution images in full detail with Zoom.it. This extension adds a right-click context menu item to links, images and pages.",
+    "description": "View and share high-resolution images with Zoom.it. This extension adds a context menu item to images, links and pages.",
     "icons": {
         "16": "zoomit-16.png",
         "48": "zoomit-48.png",
